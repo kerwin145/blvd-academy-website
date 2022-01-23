@@ -34,6 +34,18 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.photo-gallery__container_classroom_flushing{
+    margin: 1rem;
+    margin-bottom: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.photo-gallery__container_classroom_flushing img:nth-child(1){
+  grid-column-start: 2;
+}
+
 .photo-gallery__container_activities{
     margin: 1rem;
     margin-bottom: 4rem;
@@ -203,7 +215,7 @@
   grid-area: Dx;
 }
 .photo-gallery__container-old-westbury_group6{
-    grid-template-areas: "Du Du Dw" "Ds Dt Dt" "Dx Dt Dt"
+  grid-template-areas: "Du Ds" "Dx Dt" "Dw DW"
 }
 
 

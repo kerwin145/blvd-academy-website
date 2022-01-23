@@ -5,7 +5,8 @@ import {Aa, Ab, Ac,
         Ca, Cb,
         Dc, Dd, De, Df, Dh, Di, Dk, Dl, Dm, Dn, Do, Dp, Dq, Dr, Ds, Dt, Du, Dv, Dw, Dx, Dy,
         Ea, Eb, Ec, Ed, Ee, Ef, Eg,
-        Fa, Fb, Fc} from '../photoGalleryImages'
+        Fa, Fb, Fc,
+        Ga} from '../photoGalleryImages'
 
 function PhotoGallery() {
     return (
@@ -14,11 +15,15 @@ function PhotoGallery() {
                 Photo Gallery
             </h3>
             <div className="photo-gallery__container">
-                <h4 className="en-font-heading">Teaching at New Hyde Park location</h4>
+                <h4 className="en-font-heading">Teaching at the New Hyde Park location</h4>
                 <div className="photo-gallery__container_classroom">
                     <img src= {Aa} alt="" />
                     <img src= {Ab} alt="" />
                     <img src= {Ac} alt="" />
+                </div>
+                <h4 className="en-font-heading">Teaching at the flushing location</h4>
+                <div className="photo-gallery__container_classroom_flushing">
+                    <img src= {Ga} alt="" />
                 </div>
                 <h4 className="en-font-heading">Recreational Acitivies during the Summer Afternoon Session</h4>
                 <div className="photo-gallery__container_activities">

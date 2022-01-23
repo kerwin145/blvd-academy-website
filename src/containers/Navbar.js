@@ -24,9 +24,11 @@ const Menu = () =>(
         <Link to = "/Faculty">
             <p>Faculty</p>
         </Link>
+        {/*
         <Link to = "/Programs">
             <p>Programs</p>
         </Link>
+         */}
         <Link to = "/Photo-Gallery">
             <p>Photo Gallery</p>
         </Link>
