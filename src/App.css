@@ -1,0 +1,11 @@
+*{
+    scroll-behavior: smooth;
+ 
+}
+
+.App__content{
+    min-height: 100vh;
+}
+a, a:hover, a:visited{
+    all: inherit;
+}

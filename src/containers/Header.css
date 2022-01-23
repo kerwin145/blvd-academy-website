@@ -1,0 +1,33 @@
+/*
+(green blue-black)
+https://colorhunt.co/palette/ccffbd7eca9c40394a1c1427
+
+(sand beach blue)
+https://colorhunt.co/palette/fef1e6f9d5a7ffb08590aacb 
+
+*/
+
+.header{
+    font-family: "Anton";
+    font-size: 2rem;
+    background-color: var(--color-palette2);
+}
+
+
+.header__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.header__logo:hover{
+    cursor:pointer;
+}
+
+.header__logo_chinese{
+    font-family: var(--font-family-cn-title);
+    font-size: 3rem;
+    font-weight: 600;
+}

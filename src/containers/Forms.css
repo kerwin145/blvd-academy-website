@@ -1,0 +1,31 @@
+.forms{
+    margin: 2rem;
+}
+
+.forms__heading{
+    display: flex;
+    align-items: baseline;
+
+}
+.forms__registration{
+    display: flex;
+    flex: row;
+    margin: 1rem;
+    align-items: baseline;
+}
+
+.forms__registration a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.forms__registration a:visited{
+    color: blue;
+    text-decoration: underline;
+}
+
+.forms__registration a:hover{
+    color: navy;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+
+
+.about-us__text{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.about-us__text-translate_panel button{
+    width: fit-content;
+    background-color: rgba(254, 241, 230, 0.3);
+    line-height: 0;
+    padding: 1rem;;
+    border: none;
+}
+
+.about-us__text-translate_panel button:hover{
+    cursor:pointer;
+    box-shadow: inset 0px 0px 2px gray;
+}
+
+.about-us__text-translate--selected{
+    background-color: rgba(254, 241, 230, .7) !important;
+}
+
+    .about-us__text > div {
+    background-color: rgba(254, 241, 230, .7);
+    padding: 1rem;
+}
+/*
+
+.about-us{
+ 
+}
+
+.about-us__text{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem; 
+}
+
+.about-us__text-translate{
+    width: fit-content;
+    background-color: rgba(254, 241, 230, 0.9) !important;
+    line-height: 0;
+    padding: 0;
+    border: none;
+    z-index: 2;
+}
+
+.about-us__text-translate:hover{
+    cursor:pointer;
+    box-shadow: 0px 0px 4px 1px gray;
+}
+
+
+
+*/

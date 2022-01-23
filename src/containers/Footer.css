@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+    margin-top: auto;
+    padding: 1rem;
+    background-color: #FFB085 ;
+
+    
+}
+
+
+.footer__company-name{
+    max-width: 100px;
+}
+
+.footer__contact-us div:last-child{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer a{
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: navy;
+}
+
+@media screen and (max-width:680px) {
+    .footer{
+        flex-direction: column;
+    }
+}
