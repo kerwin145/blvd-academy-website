@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 import './StudentInfo.css'
-import spring2022cn from '../images/Spring2022cn.png'
-import spring2022en from '../images/Spring2022en.png'
+import stuInfoCn from '../images/StudentInfoSummer22cn.jpg'
+import stuInfoEn from '../images/StudentInfoSummer22en.jpg'
 
 function StudentInfo() {
     const [inChinese, setChinese] = useState(true);
-    const imgSrc = inChinese ? spring2022cn : spring2022en
+    const imgSrc = inChinese ? stuInfoCn : stuInfoEn
 
     return (
         <div className='student-info'> 

@@ -1,6 +1,10 @@
 import React from 'react'
 import FacultySlide from '../components/FacultySlide'
 import {Cheng, Cooper, Kowal, Coyle, Gonzalez, Lang, Lee, Sunjiayao } from '../facultyImages'
+import background2 from '../images/background2.jpg'
+import background3 from '../images/background3.jpg'
+
+
 
 import './Faculty.css'
 
@@ -67,9 +71,16 @@ function Faculty() {
     ]
     return (
         <div className='faculty'>
-            {facultyData.map((teacher, index) =>(<FacultySlide image = {teacher.image} name = {teacher.name} subject = {teacher.subject} textCn = {teacher.textCn} textEn ={teacher.textEn} />)
-            
-            )}
+
+            {/*
+            <div className='faculty__background'>
+                <img src={background3} alt="" />
+            </div>  
+            */}
+            <div className='faculty__slides'>
+                {facultyData.map((teacher, index) =>(<FacultySlide image = {teacher.image} name = {teacher.name} subject = {teacher.subject} textCn = {teacher.textCn} textEn ={teacher.textEn} />)
+                )}
+            </div>
         </div>
     )
 }

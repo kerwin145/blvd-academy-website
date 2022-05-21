@@ -1,6 +1,6 @@
 import React from 'react'
 import './Driving.css'
-import DrivingImg from '../images/Driving.png'
+import DrivingImg from '../images/driving.jpg'
 
 function Driving() {
     return (

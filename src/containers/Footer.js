@@ -5,7 +5,8 @@ function Footer() {
     return (
         <div className='footer'>
             <div className="footer__company-name">
-                <h3>Boulevard Learning Academy 大道學苑</h3>
+                <h3>Boulevard Learning Academy</h3>
+                <h3>大道學苑</h3>
             </div>
             {/*
               <div className='footer__links'>

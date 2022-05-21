@@ -11,9 +11,11 @@
     
 }
 
-
 .footer__company-name{
-    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
 }
 
 .footer__contact-us div:last-child{

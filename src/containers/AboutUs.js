@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './AboutUs.css'
+import background1 from '../images/background1.JPG' 
 
 function AboutUs() {
 
@@ -8,6 +9,9 @@ function AboutUs() {
     return (
 
         <div className='about-us'>
+            <div className='about-us__background'>
+                <img src={background1} alt="" />
+            </div>
             
             <div className='about-us__text'>
                 <span className='about-us__text-translate_panel'>

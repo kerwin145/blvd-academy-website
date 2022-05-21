@@ -1,12 +1,12 @@
 import React from 'react'
-import Calendar2022Spring from "../images/Calendar22Spring.jpg"
+import CalendarImg from "../images/Calendar22Summer.jpg"
 import './Calendar.css'
 
 function Calendar() {
 
     return (
         <div className='calendar'>
-            <img src= {Calendar2022Spring} alt="" />
+            <img src= {CalendarImg} alt="" />
         </div>
     )
 }

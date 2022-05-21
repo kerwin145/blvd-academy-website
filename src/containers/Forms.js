@@ -1,6 +1,6 @@
 import React from 'react'
 import './Forms.css'
-import registrationPdf from '../images/Registration.pdf'
+import registration from '../images/Registration.jpg'
 
 function Forms() {
     return (
@@ -12,7 +12,7 @@ function Forms() {
             <div className = 'forms__registration'>
                 <span className='cn-font-text'>報名表格 &nbsp;</span>
                 <span className='en-font-text'>Registration Form:&nbsp; </span>
-                <a href={registrationPdf} target = "_blank">Download</a>
+                <a href={registration} target = "_blank">Download</a>
             </div>
         </div>
     )
