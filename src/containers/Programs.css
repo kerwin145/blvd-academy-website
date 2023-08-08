@@ -1,0 +1,40 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.programs__heading{
+    align-self: center;
+}
+
+.programs h3{
+    text-decoration: underline;
+}
+.programs h4{
+    font-style: italic;
+    text-decoration: none;
+}
+
+.programs__list{
+    display: flex;
+    flex :1;
+}
+
+.programs__list > *{
+    margin: 1rem 2rem;
+    margin-left: 0;
+    padding: 1rem 2rem;
+    background-color: var(--color-background);
+    flex-basis: 100%;
+
+}
+
+
+
+@media screen and (max-width:680px) {
+    .programs__list{
+        flex-direction: column;
+    }
+
+}

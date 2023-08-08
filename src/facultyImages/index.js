@@ -1,0 +1,8 @@
+export {default as Cheng} from './Cheng.jpg'
+export {default as Cooper} from './Cooper.png'
+export {default as Kowal} from './Kowal.png'
+export {default as Coyle} from './Coyle.png'
+export {default as Gonzalez} from './Gonzalez.jpg'
+export {default as Lang} from './Jessica.jpg'
+export {default as Lee} from './Fernando.jpg'
+export {default as Sunjiayao} from './Sunjiayao.jpg'

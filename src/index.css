@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Zhi+Mang+Xing&display=swap');
+:root {
+  --font-family-en: 'Ubuntu', sans-serif;
+  --font-family-cn: 'Noto Sans TC', sans-serif;
+  --font-family-cn-title: 'Zhi Mang Xing';
+
+
+  --color-background: #FEF1E6;
+  --color-palette1: #77C9D4;
+  --color-palette2: #57BC90;
+  --color-palette3: #015249;
+  --color-palette4: #A5A5AF;
+
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+}
+
+.header__padding{
+  padding: 10px;
+}
+
+.cn-font-text{
+    font-family: var(--font-family-cn);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.en-font-text{
+    font-family: var(--font-family-en);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.cn-font-heading{
+    font-family: var(--font-family-cn);
+    font-size: 3.4rem;
+    font-weight: 400;
+}
+
+.en-font-heading{
+    font-family: var(--font-family-en);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 820px) {
+  .cn-font-text{
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.en-font-text{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.cn-font-heading{
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.en-font-heading{
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

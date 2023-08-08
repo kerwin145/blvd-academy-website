@@ -1,0 +1,16 @@
+*{
+    scroll-behavior: smooth;
+ 
+}
+
+.App__content > *{
+    min-height: 75vh;
+}
+a, a:hover, a:visited{
+    all: inherit;
+}
+
+.pdf{
+    flex: 1;
+    min-height: 75vh;
+}

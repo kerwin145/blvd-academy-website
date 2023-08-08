@@ -1,0 +1,253 @@
+.photo-gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.photo-gallery img{
+    min-width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    box-shadow: 0px 0px 2px 1px var(--color-palette3);
+}
+
+.photo-gallery h3{
+    font-size: 2rem;
+}
+
+.photo-gallery h4{
+    font-size: 1.2rem;
+}
+
+.photo-gallery__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-gallery__container_classroom{
+    margin: 1rem;
+    margin-bottom: 4rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.photo-gallery__container_classroom_flushing{
+    margin: 1rem;
+    margin-bottom: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.photo-gallery__container_classroom_flushing img:nth-child(1){
+  grid-column-start: 2;
+}
+
+.photo-gallery__container_activities{
+    margin: 1rem;
+    margin-bottom: 4rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    grid-template-areas: "Ba Bb Be Bd" "Ba Bc Bf Bd";
+}
+
+.photo-gallery__container_activities > img:nth-child(1){
+    grid-area: Ba
+}
+.photo-gallery__container_activities > img:nth-child(2){
+    grid-area: Bb
+}
+.photo-gallery__container_activities > img:nth-child(3){
+    grid-area: Bc
+}
+.photo-gallery__container_activities > img:nth-child(4){
+    grid-area: Bd
+}
+.photo-gallery__container_activities > img:nth-child(5){
+    grid-area: Be
+}
+.photo-gallery__container_activities > img:nth-child(6){
+    grid-area: Bf
+}
+
+.photo-gallery__container_parties{
+    margin: 1rem;
+    margin-bottom: 4rem;
+    width: 70%;
+    display: grid;
+    align-items:stretch;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.photo-gallery__container_teaching{
+    margin: 1rem;
+    margin-bottom: 4rem;
+    width: 70%;
+    display: grid;
+    grid-template-areas: "Ea Ea Eb Eb Eg Eg" "Ec Ec Ec Ed Ed Ed" "Ef Ef Ef Ee Ee Ee";
+    grid-template-rows: repeat(3, max(1fr));
+    align-items: center;
+    gap: 1rem;
+}
+
+.photo-gallery__container_teaching > img:nth-child(1){
+  grid-area: Ea;
+}
+.photo-gallery__container_teaching > img:nth-child(2){
+  grid-area: Eb;
+}
+.photo-gallery__container_teaching > img:nth-child(3){
+  grid-area: Ec;
+}
+.photo-gallery__container_teaching > img:nth-child(4){
+  grid-area: Ed;
+}
+.photo-gallery__container_teaching > img:nth-child(5){
+  grid-area: Ee;
+}
+.photo-gallery__container_teaching > img:nth-child(6){
+  grid-area: Ef;
+}
+.photo-gallery__container_teaching > img:nth-child(7){
+  grid-area: Eg;
+}
+
+.photo-gallery__container_old-westbury{
+    margin: 1rem;
+    margin-bottom: 4rem;
+    display: grid;
+    gap: 2rem;
+    width: 80%;
+    grid-template-columns: auto;
+    grid-template-areas: "area1 area2 area3" 
+                        "area4 area4 area5"
+                        "area6 area6 area6";
+}
+
+.photo-gallery__container_old-westbury > div{
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+
+}
+/*SECTION 1*/
+.photo-gallery__container-old-westbury_group1 > img:nth-child(1){
+  grid-area: Dc
+}
+.photo-gallery__container-old-westbury_group1 > img:nth-child(2){
+  grid-area: Dd
+}
+.photo-gallery__container-old-westbury_group1 > img:nth-child(3){
+  grid-area: Df
+}
+.photo-gallery__container-old-westbury_group1{
+    grid-template-areas: "Dc" "Dd" "Df";
+}
+
+
+/*SECTION 2*/
+.photo-gallery__container-old-westbury_group2 > img:nth-child(1){
+  grid-area: De
+}
+.photo-gallery__container-old-westbury_group2 > img:nth-child(2){
+  grid-area: Dk
+}
+.photo-gallery__container-old-westbury_group2 > img:nth-child(3){
+  grid-area: Dv
+}
+.photo-gallery__container-old-westbury_group2{
+    grid-template-areas: "De Dk" "Dv Dv";
+}
+
+/*SECTION 3*/
+.photo-gallery__container-old-westbury_group3 > img:nth-child(1){
+  grid-area: Dh
+}
+.photo-gallery__container-old-westbury_group3 > img:nth-child(2){
+  grid-area: Dy
+}
+.photo-gallery__container-old-westbury_group3{
+    align-self: flex-start;
+    grid-template-areas: "Dh" "Dy";
+}
+
+/*SECTION 4*/
+.photo-gallery__container-old-westbury_group4 > img:nth-child(1){
+  grid-area: Di
+}
+.photo-gallery__container-old-westbury_group4 > img:nth-child(2){
+  grid-area: Dq
+}
+.photo-gallery__container-old-westbury_group4 > img:nth-child(3){
+  grid-area: Dl
+}
+.photo-gallery__container-old-westbury_group4 > img:nth-child(4){
+  grid-area: Dm
+}
+.photo-gallery__container-old-westbury_group4 > img:nth-child(5){
+  grid-area: Dp;
+}
+.photo-gallery__container-old-westbury_group4{
+    grid-template-areas: "Di Dq" "Dl Dm" ". Dp"
+}
+
+
+/*SECTION 6*/
+.photo-gallery__container-old-westbury_group6 > img:nth-child(1){
+  grid-area: Ds
+}
+.photo-gallery__container-old-westbury_group6 > img:nth-child(2){
+  grid-area: Dt
+}
+.photo-gallery__container-old-westbury_group6 > img:nth-child(3){
+  grid-area: Du
+}
+.photo-gallery__container-old-westbury_group6 > img:nth-child(4){
+  grid-area: Dw
+}
+.photo-gallery__container-old-westbury_group6 > img:nth-child(5){
+  grid-area: Dx;
+}
+.photo-gallery__container-old-westbury_group6{
+  grid-template-areas: "Du Ds" "Dx Dt" "Dw DW"
+}
+
+
+.photo-gallery__container-old-westbury_group1{
+  grid-area: area1  
+}
+
+.photo-gallery__container-old-westbury_group2{
+  grid-area: area2  
+}
+
+.photo-gallery__container-old-westbury_group3{
+  grid-area: area3  
+}
+
+.photo-gallery__container-old-westbury_group4{
+  grid-area: area4
+}
+
+.photo-gallery__container-old-westbury_group5{
+  grid-area: area5
+}
+
+.photo-gallery__container-old-westbury_group6{
+  grid-area: area6
+}
+
+
+@media screen and (max-width:680px) {
+
+  .photo-gallery h4{
+      font-size: .8rem;
+  }
+
+}

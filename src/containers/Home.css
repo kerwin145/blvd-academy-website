@@ -1,0 +1,127 @@
+
+.home{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family-cn);
+    background-image: url(../images/oldWestburyBuilding.jpg);
+    background-size: cover;
+    overflow: hidden;
+    line-height: 1.25;
+}
+
+.home__extrasContentContainer{
+    margin: 1rem 7%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__declaration{
+    margin-top: 2rem;
+    background-color: rgba(254, 241, 230, .8) ;
+    padding: 1rem;
+    padding-left: 5rem;
+}
+
+.home__declaration_text-bold{
+    padding: 1rem;
+}
+
+.home__background{
+    position: relative;
+    object-fit: contain;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0, 1) 0%,rgba(0,0,0,.5)100%);
+}
+
+.home__text-translate_panel button{
+    width: fit-content;
+    background-color: rgba(254, 241, 230, .3);
+    line-height: 0;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: none;
+}
+
+.home__text-translate_panel{
+    width: fit-content;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.home__text-translate_panel button:hover{
+    cursor:pointer;
+    box-shadow: inset 0px 0px 2px gray;
+}
+
+.home__mainContentContainer{
+    display: flex;
+    margin: 1rem 7%;
+    gap: 0;
+}
+
+.home__text{
+    z-index: 1;
+    display: flex;
+    background-color: rgba(254, 241, 230, .87) ;
+    margin: 1rem;
+    margin-left: 0;
+    flex: 2;
+}
+
+.home__updates{
+    background-color: rgba(254, 241, 230, .87);
+    margin: 1rem;
+    margin-right: 0;
+    flex: 1;
+}
+
+.home__text > div,.home__updates > div{
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.home__updates h3{
+    margin: 0;
+    padding-bottom: .5rem;
+}
+
+.home__text-translate--selected{
+    background-color: rgba(254, 241, 230, .7) !important;
+}
+
+
+@media screen and (max-width: 820px) {
+    .home__text, .home__updates{
+        width: unset;
+    }
+
+    .home__text-translate_panel{
+        margin: 1rem
+    }
+
+    .home__declaration{
+        margin: 1rem;
+        margin-bottom: 0;
+        padding: 0 2rem;
+    }
+
+    .home__mainContentContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .home__mainContentContainer > div{
+        margin: 1rem;
+
+    }
+
+}
+
+
+
+
